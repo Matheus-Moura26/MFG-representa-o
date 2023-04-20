@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MFG-representa-o/static/css/main.44da213f.css",
+    "main.js": "/MFG-representa-o/static/js/main.b4ca3873.js",
+    "static/js/787.1aaa90eb.chunk.js": "/MFG-representa-o/static/js/787.1aaa90eb.chunk.js",
+    "index.html": "/MFG-representa-o/index.html",
+    "main.44da213f.css.map": "/MFG-representa-o/static/css/main.44da213f.css.map",
+    "main.b4ca3873.js.map": "/MFG-representa-o/static/js/main.b4ca3873.js.map",
+    "787.1aaa90eb.chunk.js.map": "/MFG-representa-o/static/js/787.1aaa90eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44da213f.css",
+    "static/js/main.b4ca3873.js"
+  ]
+}
