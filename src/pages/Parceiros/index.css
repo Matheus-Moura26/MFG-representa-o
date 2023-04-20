@@ -1,0 +1,112 @@
+.parceirosContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation:  0.5s ease-in;
+
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.softysCard {
+    display: none;
+  }
+  
+.softysCard.softysActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: slide-up 0.5s ease-out;
+  }
+
+.industryName{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 1s ease-in;
+}
+
+.industryName:hover {
+    transform: scale(1.1);
+}
+
+.parceirosBloco1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.subTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.parceirosBloco2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.doceMineiroCard{
+    display: none;
+}
+
+.doceMineiroCard.doceMineirosActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: slide-up 0.5s ease-out;
+  }
+
+.roanAlimentosCard{
+    display: none;
+}
+
+.roanAlimentosCard.roanAlimentossActive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    animation: slide-up 0.5s ease-out;
+}
+
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,98 @@
+.precatorios-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    
+  }
+  
+  .precatorios-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .precatorios-header h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .precatorios-header p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .precatorios-section {
+    margin-bottom: 2rem;
+  }
+  
+  .precatorios-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .precatorios-section p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .precatorios-container-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form-section {
+    margin-top: 50px;
+  }
+  
+  .contact-form-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .precatorioButton[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .precatorioButton[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  

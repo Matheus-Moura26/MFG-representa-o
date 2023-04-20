@@ -1,0 +1,28 @@
+.container {
+    background-color: #f5e5d5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .quote {
+    border-left: 2px solid #f57f17;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  
+  .quote-text {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .text {
+    margin-top: 20px;
+  }
+  

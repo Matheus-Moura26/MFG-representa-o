@@ -1,0 +1,74 @@
+.contratar-servicos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .contratar-servicos-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contratar-servicos-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contratar-servicos-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contratar-servicos-input {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+  }
+  
+  .contratar-servicos-textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    resize: none;
+  }
+  
+  .contratar-servicos-submit {
+    width: 100%;
+    max-width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .contratar-servicos-submit:hover {
+    background-color: #0069d9;
+  }
+  
+  .contratarServicosText {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  

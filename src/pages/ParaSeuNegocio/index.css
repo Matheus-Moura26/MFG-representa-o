@@ -1,0 +1,73 @@
+.paraSeuNegocioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #38b2c7, #4b47b8);
+  }
+  
+  .paraSeuNegocioSection {
+    width: 400px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .paraSeuNegocioSubTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+
+  .paraSeuNegocioContainer .paraSeuNegocioSection ul {
+    display: none;
+  }
+  
+  .paraSeuNegocioContainer .paraSeuNegocioSection:hover ul {
+    display: block;
+  }
+  
+  .paraSeuNegocioContainer .paraSeuNegocioSection ul li:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .paraSeuNegocioContent {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .paraSeuNegocioButtonsBox {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #c0e7d4, #acdae5);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .paraSeuNegocioButtonsBox:hover {
+    transform: scale(1.02);
+  }
+
+  .paraSeuNegocioButtons {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .title:hover, .paraSeuNegocioButtons:hover {
+    /* color:  rgb(14, 189, 84); */
+  }
+  
+  .paraSeuNegocioSection {
+    background: linear-gradient(135deg, #d2f2e2, #c1e1e9);
+    padding: 20px;
+  }

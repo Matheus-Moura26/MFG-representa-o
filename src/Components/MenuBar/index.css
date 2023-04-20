@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.barBox {
+    background-color: rgb(255, 255, 255);
+    width: 99.99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-radius: 2rem;
+}
+
+.barContent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12.4rem;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    color: #0f4198;
+    font-size: 2.8rem;
+    text-decoration: none;
+    padding-right: 3rem;
+}
+
+/* .menuButtonsBar {
+    display: flex;
+    flex-direction: row;
+} */
+
+.menuButtons {
+    position: relative;
+    color: #0f4198;
+    padding-right: 2rem;
+    font-size: 1.49rem;
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+
+.menuButtonsBar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 84%;
+    height: .03rem;
+    background: #0f4198;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform 0.5s;
+}
+
+.menuButtonsBar a:hover::after{
+    transform-origin: left;
+    transform: scale(1);
+}

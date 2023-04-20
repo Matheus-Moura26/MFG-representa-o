@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.loginContent {
+    width: 4.5rem;
+    height: 1.7rem;
+    background-color: rgba(27, 165, 91, 0.593) ;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-justify: center;
+    border-radius: 3rem;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.loginText {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+}
+
+.loginContent:hover {
+    background-color: #fff;
+}
+
+.loginText:hover {
+    color: rgba(27, 165, 91, 0.593);
+}
